@@ -4,7 +4,6 @@
 ## 🚀 Project Overview
 This project is a ChatGPT-like application that allows users to upload a PDF and ask questions about it. It uses a Retrieval-Augmented Generation (RAG) pipeline to fetch relevant content and generate accurate answers.
 
----
 
 ## 🧠 Tech Stack
 - LlamaIndex (RAG Framework)
@@ -13,7 +12,6 @@ This project is a ChatGPT-like application that allows users to upload a PDF and
 - FAISS (Vector Database)
 - Streamlit (UI)
 
----
 
 ## ⚙️ Features
 - Upload PDF
@@ -22,12 +20,10 @@ This project is a ChatGPT-like application that allows users to upload a PDF and
 - Source-based answers (no hallucination)
 - Chat history
 
----
 
 ## 🏗️ Architecture
 PDF → Chunking → Embeddings → FAISS → Retrieval → Gemini → Answer
 
----
 
 ## 📦 Installation
 
